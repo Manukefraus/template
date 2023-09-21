@@ -2,7 +2,7 @@ import { AppBar, Container, Toolbar } from "@mui/material";
 
 function Header() {
   return (
-    <AppBar position="static">
+    <AppBar style={{marginBottom:"50px"}}position="static">
         <Container maxWidth="xl">
             <Toolbar disableGutters>
             </Toolbar>
